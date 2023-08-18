@@ -1,0 +1,97 @@
+/* Classes */
+.blog-content  h1 {
+    border-bottom: .4rem  solid  #fff;
+    padding-bottom: 2rem;
+}
+
+.section-title-lg {
+    border-left: .4rem  solid  #000;
+    font-size: 3.2rem;
+}
+
+.section-title-sm {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.blog-content  p { margin-bottom: 3.2rem }
+
+.gray-bordered {
+    border-left: .2rem  solid  #aaa;
+    padding-left: .5rem;
+}
+
+.blue-bordered {
+    background-color: #edf2f3;
+    border-left: .4rem  solid  #aebec9;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    padding: 2.5rem  2rem;
+}
+
+.blog-content  .content-title > *, .blog-content  .content  .container > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 77rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Start of Main Part */
+/* Blogs section */
+#blogs  img { height: 25rem }
+
+.blog-card { margin-right: 2.5rem }
+
+.blog-card:hover { opacity: .9 }
+/* End of Main Part */
+
+
+
+
+
+
+
+
+
+
+/* Blog Pages */
+.scenic-blog  .bg-img { background-image: url('../images/quote-bg.jpg') }
+
+.renos-blog  .bg-img { background-image: url('../images/blogs-blog2.jpg') }
+
+.web-blog  .bg-img { background-image: url('../images/blogs-blog3.jpg') }
+
+.students-blog  .bg-img { background-image: url('../images/blogs-blog4.jpg') }
+
+.myths-blog  .bg-img { background-image: url('../images/blogs-blog5.jpg') }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .blog-content  main  section:not(.intro) { padding: 0 }
+}
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 576px) {
+    .blog-card { margin: 0  0  1.5rem  0 }
+}

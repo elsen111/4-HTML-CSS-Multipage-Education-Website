@@ -1,0 +1,108 @@
+/* Start of Main Part */
+/* Introduction section */
+.intro  p {
+    border-top: .2rem  solid  #fff;
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+
+
+
+
+
+/* Courses section */
+#courses  .grid-3 { margin-top: 5rem }
+
+
+
+
+
+/* Quote section */
+section.quote { background-image: url('../images/quote-bg.jpg') }
+
+section.quote  .fa-solid { font-size: 6rem }
+
+
+
+
+
+/* Teachers section */
+#teachers  .rounded {
+    height: 35.2rem;
+    max-width: 35.2rem;
+    width: 100%;
+}
+
+
+
+
+
+/* Sign-up section */
+#sign-up { background-image: url('../images/home-sign.jpg') }
+
+#sign-up  p {
+    max-width: 30rem;
+    width: 100%;
+}
+
+#signup-form {
+    background-color: rgba(0, 0, 0, .64) !important;
+    padding: 4.2rem  0;
+}
+
+#signup-form  input {
+    border: .3rem  solid  #fff;
+    height: 5.5rem;
+    width: calc(100% / 3);
+}
+/* End of Main Part */
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .browse-btn {
+        margin-top: 0;
+        padding: 2.5rem  0 !important;
+    }
+
+    section.quote  .fa-solid { font-size: 5rem }
+
+    section.quote  .h-line { margin: 2.5rem  0 }
+
+    section#sign-up { padding-bottom: 0 !important }
+
+    #signup-form { margin-top: 4.5rem }
+
+    #teachers  .rounded { height: auto }
+}
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    section.quote  h3 + div {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    section.quote  h3 + div > .link:last-child {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    #signup-form  .container.flex { flex-direction: column }
+
+    #signup-form  .container.flex > * {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+}

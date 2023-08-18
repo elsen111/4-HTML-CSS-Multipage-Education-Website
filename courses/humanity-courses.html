@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Linking stylesheets -->
+        <link rel="stylesheet" href="../css/utils.css">
+        <link rel="stylesheet" href="../css/courses.css">
+
+        <!-- Linking the logo on the tab -->
+        <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+        <title> Educational Courses </title>
+    </head>
+    
+    <body class="relative">
+        <!-- Start of Header Part -->
+        <header class="w-100 flex navbar-wrapper transition">
+            <div class="flex sp-between h-100 w-100">
+                <div class="flex logo">
+                    <img src="../images/icon.png" alt="icon image">
+                    <h1><a href="#" class="link text-capitalized font-white fw-400"> educated </a></h1>
+                </div>
+
+                <div id="top-navbar" class="h-100 navbar">
+                    <ul class="list flex h-100 transition">
+                        <li class="h-100 flex"><a href="../index.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> home </a></li>
+                        <li class="h-100 flex"><a href="../courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> courses </a></li>
+                        <li class="h-100 flex"><a href="../events.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> events </a></li>
+                        <li class="h-100 flex"><a href="../blogs.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> blog </a></li>
+                        <li class="h-100 flex"><a href="../teachers.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> teachers </a></li>
+                        <li class="h-100 flex link font-white text-capitalized h-100 flex fw-400 transition pointer relative">
+                             <span> other interests </span>
+                             <i class="fa-solid fa-angle-down"></i>
+                             <ul class="list bg-white flex flex-column absolute sub-nav w-100">
+                                <li class="h-100 flex w-100"><a href="../additional-courses.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> other fields </a></li>
+                                <li class="h-100 flex w-100"><a href="../solid.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> solid </a></li>                                
+                             </ul>
+                        </li>
+                        <li class="h-100 flex"><a href="../contact.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> contact us </a></li>
+                    </ul>
+                </div>
+
+                <div class="menu-bar h-100 flex pointer" onclick="handleNavbar()">
+                    <i class="fa-solid fa-bars font-white"></i>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+
+        <!-- Start of Main Part -->
+        <main class="course-category">
+            <section class="intro intro-short relative">
+                <div class="container">
+                    <div class="featured-content w-100 m-center">
+                        <h1 class="title-lg mt-20 mb-20 font-white lh-105"> Humanity </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section id="courses" class="pt-175">
+                <div class="container">
+                    <div class="grid-3">
+                        <div class="course-card-wrapper transition">
+                            <div class="course-card relative h-100">
+                                <div>
+                                    <img src="../images/home-courses1.jpg" alt="course 1">
+                                </div>
+    
+                                <div class="h-line bg-black"></div>
+    
+                                <div class="card-body">
+                                    <h3 class="card-title"> Cook Like a Pro </h3>
+    
+                                    <p>
+                                        Make your mouth water, and that of your friends.
+                                    </p>
+    
+                                    <div class="flex flex-start absolute">
+                                        <a href="./cooking.html" class="link btn transition bg-black text-capitalized mt-20"> explore </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course-card-wrapper transition">
+                            <div class="course-card relative h-100">
+                                <div>
+                                    <img src="../images/home-course2.jpg" alt="course 1">
+                                </div>
+    
+                                <div class="h-line bg-black"></div>
+    
+                                <div class="card-body">
+                                    <h3 class="card-title"> Fundamentals in Human Anatomy </h3>
+    
+                                    <p>
+                                        Get in touch with your body, and what grounds us to this world.
+                                    </p>
+    
+                                    <div class="flex flex-start absolute">
+                                        <a href="./human-anatomy.html" class="link btn transition bg-black text-capitalized mt-20"> explore </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="course-card-wrapper transition">
+                            <div class="course-card relative h-100">
+                                <div>
+                                    <img src="../images/home-course3.jpg" alt="course 1">
+                                </div>
+
+                                <div class="h-line bg-black"></div>
+
+                                <div class="card-body">
+                                    <h3 class="card-title"> Introduction to Architecture </h3>
+
+                                    <p>
+                                        An in-depth look at architecture basis and trends, foundations in building.
+                                    </p>
+
+                                    <div class="flex flex-start absolute">
+                                        <a href="./architecture.html" class="link btn transition bg-black text-capitalized mt-20"> explore </a>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+
+                       <div class="course-card-wrapper transition">
+                            <div class="course-card relative h-100">
+                                <div>
+                                    <img src="../images/home-course4.jpg" alt="course 1">
+                                </div>
+
+                                <div class="h-line bg-black"></div>
+
+                                <div class="card-body">
+                                    <h3 class="card-title"> Get ordained to perform marriages </h3>
+
+                                    <p>
+                                        Get certified to turn her "I do" into a legal arrangement.
+                                    </p>
+
+                                    <div class="flex flex-start absolute">
+                                        <a href="./marriage.html" class="link btn transition bg-black text-capitalized mt-20"> explore </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course-card-wrapper transition">
+                            <div class="course-card relative h-100">
+                                <div>
+                                    <img src="../images/humanity-course5.jpg" alt="course 1">
+                                </div>
+
+                                <div class="h-line bg-black"></div>
+
+                                <div class="card-body">
+                                    <h3 class="card-title"> Master English Literature </h3>
+
+                                    <p>
+                                        Discover your love for written literature and find your voice within.
+                                    </p>
+
+                                    <div class="flex flex-start absolute">
+                                        <a href="./english-literature.html" class="link btn transition bg-black text-capitalized mt-20"> explore </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course-card-wrapper transition">
+                            <div class="course-card relative h-100">
+                                <div>
+                                    <img src="../images/humanity-course6.jpg" alt="course 1">
+                                </div>
+
+                                <div class="h-line bg-black"></div>
+
+                                <div class="card-body">
+                                    <h3 class="card-title"> Foundations in Western Medicine </h3>
+
+                                    <p>
+                                        First steps to a healthier tomorrow. Get your foundations in western medicine.
+                                    </p>
+
+                                    <div class="flex flex-start absolute">
+                                        <a href="./medicine.html" class="link btn transition bg-black text-capitalized mt-20"> explore </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+        <!-- Start of Footer Part -->
+        <footer>
+            <section class="browse-btn mt-100 py-25 bg-gray">
+                <div class="container flex">
+                    <div class="flex">
+                        <a href="../courses.html" class="link btn text-capitalized bg-white font-black transition"> browse by category </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-25 copyright">
+                <p class="fs-14 centered text-capitalized font-white"> &copy; all rights reserved | developed by Elshan Hasanov </p>
+            </section>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing script file -->
+        <script src="../main.js"></script>
+    </body>
+</html>

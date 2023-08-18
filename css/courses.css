@@ -1,0 +1,192 @@
+/* Classes */
+.course-content  h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5.4rem;
+}
+
+.course-category  .intro { background: #3b2ceb !important }
+
+
+
+
+
+
+
+
+
+/* Start of Main Part */
+/* Introduction section */
+.intro { background: #3b2ceb }
+
+
+
+
+
+/* Categories section */
+.category-card {
+    background: #f7f7f7;
+    border-top: .4rem  solid  #d1d1d1;
+    height: 27.5rem;
+    padding: 9.2rem  4.2rem  0  4.2rem;
+}
+
+.category-card:hover { box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px }
+
+.category-card  .link {
+    border-bottom: .2rem  solid  #000;
+    line-height: 2.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.category-card  .link:hover { opacity: .5 }
+/* End of Main Part */
+
+
+
+
+
+
+
+
+
+
+/* Course pages */
+.cooking-course  .bg-img { background-image: url('../images/home-courses1.jpg') }
+
+.humanity-course  .bg-img { background-image: url('../images/home-course2.jpg') }
+
+.architecture-course  .bg-img { background-image: url('../images/home-course3.jpg') }
+
+.marriage-course  .bg-img { background-image: url('../images/home-course4.jpg') }
+
+.photography-course  .bg-img { background-image: url('../images/home-course5.jpg') }
+
+.english-course  .bg-img { background-image: url('../images/home-course6.jpg') }
+
+.western-medicine-course  .bg-img { background-image: url('../images/humanity-course6.jpg') }
+
+.free-diving-course  .bg-img { background-image: url('../images/handsOn-course3.jpg') }
+
+.ballet-course  .bg-img { background-image: url('../images/handsOn-course5.jpg') }
+
+.cs-course  .bg-img { background-image: url('../images/handsOn-course6.jpg') }
+
+.course-content  .grid-4 > div {
+    background-color: rgba(255, 255, 255, .82);
+    border-top: .4rem  solid  #fff;
+    padding: 0  2rem  7.5rem  2rem;
+}
+
+.course-content  .ps-black::before { background-color: rgba(0, 0, 0, 0.95) }
+
+.course-content  .intro  li { margin-bottom: 1rem }
+
+.course-content  .link:hover { opacity: .7 }
+
+.teachers  img {
+    height: 5rem;
+    width: 5rem;
+    margin-right: .86rem;
+}
+
+.teachers  .link { color: #585858 }
+
+.content  .content-title {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.gray-bordered {
+    border-left: .2rem  solid  #aaa;
+    padding-left: .5rem;
+}
+
+.blue-bordered {
+    background-color: #edf2f3;
+    border-left: .4rem  solid  #aebec9;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    padding: 2.5rem  2rem;
+}
+
+.course-content  .content-title > *, .course-content  .content  .container > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 77rem;
+    width: 100%;
+}
+
+.course-content  .content-title  .triangle {
+    height: 3.5rem;
+    width: 3.5rem;
+    bottom: -13%;
+    transform: rotate(45deg);
+}
+
+.section-title-lg {
+    border-left: .4rem  solid  #000;
+    font-size: 3.2rem;
+}
+
+.section-title-sm {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.course-content  p {
+    line-height: 2.5rem;
+    margin-bottom: 3.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .category-card {
+        height: auto;
+        padding: 3.5rem  4.2rem  3.5rem  4.2rem;
+    }
+
+
+
+    .course-content  .content, .course-content  .content-text  section { padding: 0 }
+
+    .course-content  h1 { font-size: 3.8rem }
+
+    .course-content  .intro  h5 {
+        margin-top: 3.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .course-content  .grid-4 > div { padding-bottom: 3.5rem }
+
+    .content  .content-title { margin-bottom: 5rem }
+
+    section.content, .content-text  section { padding: 0 !important }
+}
+
+@media only screen and (max-width: 576px) {
+    .category-card-wrapper {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .category-card {
+        height: auto;
+        padding: 3.5rem  3rem  3.5rem  3rem;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .course-content  h1 { font-size: 3.2rem }
+}

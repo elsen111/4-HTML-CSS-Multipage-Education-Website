@@ -1,0 +1,120 @@
+/* Classes */
+.teacher-content  .intro {
+    background: none;
+    padding-bottom: 4.3rem;
+}
+
+.section-title-lg {
+    border-left: .4rem  solid  #000;
+    font-size: 3.2rem;
+}
+
+.section-title-sm {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.teacher-content  p { margin-bottom: 3.2rem }
+
+.gray-bordered {
+    border-left: .2rem  solid  #aaa;
+    padding-left: .5rem;
+}
+
+.blue-bordered {
+    background-color: #edf2f3;
+    border-left: .4rem  solid  #aebec9;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    padding: 2.5rem  2rem;
+}
+
+.teacher-content  .content-title > *, .teacher-content  .content  .container > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 77rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Start of Main Part */
+/* Teachers section */
+#teachers  .bg-img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.teacher-info { margin-bottom: 7.5rem }
+
+.teacher-info:hover { opacity: .8 }
+
+.wrapper:first-child  .bg-img { background-image: url('../images/teachers-teacher1.png') }
+
+.wrapper:nth-child(2)  .bg-img { background-image: url('../images/teachers-teacher2.png') }
+
+.wrapper:nth-child(3)  .bg-img { background-image: url('../images/teachers-teacher3.png') }
+
+.wrapper:nth-child(4)  .bg-img { background-image: url('../images/teachers-teacher4.png') }
+
+.wrapper:nth-child(5)  .bg-img { background-image: url('../images/teachers-teacher5.png') }
+
+.wrapper:last-child  .bg-img { background-image: url('../images/teachers-teacher6.png') }
+/* End of Main Part */
+
+
+
+
+
+
+
+
+
+
+/* Pages */
+.teacher-img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.teacher-accounts  .link {
+    color: #91b5f5;
+    margin: 1rem  .75rem;
+}
+
+.teacher-accounts  .link:hover { color: #0d4bb5 }
+
+.teacher-content  .content { background-color: #fafafa }
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 992px) {
+    #teachers  .grid-3 { grid-template-columns: repeat(2, 1fr) }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #teachers  .grid-3 { grid-template-columns: repeat(1, 1fr) }
+
+
+
+    .teacher-content  .content, .teacher-content  .content-text  section { padding: 0 }
+}

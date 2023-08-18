@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Linking stylesheets -->
+        <link rel="stylesheet" href="../css/utils.css">
+        <link rel="stylesheet" href="../css/courses.css">
+
+        <!-- Linking the logo on the tab -->
+        <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+
+        <title> Educational Courses </title>
+    </head>
+    
+    <body class="relative">
+        <!-- Start of Header Part -->
+        <header class="w-100 flex navbar-wrapper transition">
+            <div class="flex sp-between h-100 w-100">
+                <div class="flex logo">
+                    <img src="../images/icon.png" alt="icon image">
+                    <h1><a href="#" class="link text-capitalized font-white fw-400"> educated </a></h1>
+                </div>
+
+                <div id="top-navbar" class="h-100 navbar">
+                    <ul class="list flex h-100 transition">
+                        <li class="h-100 flex"><a href="../index.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> home </a></li>
+                        <li class="h-100 flex"><a href="../courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> courses </a></li>
+                        <li class="h-100 flex"><a href="../courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> events </a></li>
+                        <li class="h-100 flex"><a href="../blogs.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> blog </a></li>
+                        <li class="h-100 flex"><a href="../teachers.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> teachers </a></li>
+                        <li class="h-100 flex link font-white text-capitalized h-100 flex fw-400 transition pointer relative">
+                             <span> other interests </span>
+                             <i class="fa-solid fa-angle-down"></i>
+                             <ul class="list bg-white flex flex-column absolute sub-nav w-100">
+                                <li class="h-100 flex w-100"><a href="../additional-courses.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> other fields </a></li>
+                                <li class="h-100 flex w-100"><a href="../solid.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> solid </a></li>                                
+                             </ul>
+                        </li>
+                        <li class="h-100 flex"><a href="../contact.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> contact us </a></li>
+                    </ul>
+                </div>
+
+                <div class="menu-bar h-100 flex pointer" onclick="handleNavbar()">
+                    <i class="fa-solid fa-bars font-white"></i>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+
+        <!-- Start of Main Part -->
+        <main class="course-content free-diving-course">
+            <section class="intro intro-long bg-img relative ps-before ps-black">
+                <div class="container">
+                    <div class="featured-content w-100 m-center">
+                        <h1 class="mt-20 mb-20 font-white fw-400"> Cook Like a Pro. </h1>
+                        <div class="grid-4">
+                            <div class="categories mt-20">
+                                <h5 class="fs-16 font-black text-uppercased mt-75 mb-30"> categories </h5>
+                                <ul class="list">
+                                    <li class="w-100"><a href="../courses/humanity-courses.html" class="link gray-bordered w-100 font-black text-capitalized fw-600 transition"> humanity </a></li>
+                                    <li class="w-100"><a href="../courses/hands-on-courses.html" class="link gray-bordered w-100 font-black text-capitalized fw-600 transition"> hands on </a></li>
+                                    <li class="w-100"><a href="../courses/media-courses.html" class="link gray-bordered w-100 font-black text-capitalized fw-600 transition"> visual media </a></li>
+                                    <li class="w-100"><a href="../courses/adventure-courses.html" class="link gray-bordered w-100 font-black text-capitalized fw-600 transition"> adventure </a></li>
+                                </ul>
+                            </div>
+
+                            <div class="teachers mt-20">
+                                <h5 class="fs-16 font-black text-uppercased mt-75 mb-30"> teachers </h5>
+                                <ul class="list">
+                                    <li class="w-100 mb-15">
+                                        <a href="../teachers/teacher-4.html" class="link w-100 text-capitalized fw-600 flex flex-start transition"> 
+                                            <img src="../images/teachers-teacher4.png" alt="Ken Rivers" class="rounded">
+                                            <span> Ken Rivers </span>
+                                        </a>
+                                    </li>
+
+                                    <li class="w-100 mb-15">
+                                        <a href="../teachers/teacher-2.html" class="link w-100 text-capitalized fw-600 flex flex-start transition"> 
+                                            <img src="../images/teachers-teacher2.png" alt="Brandy Lee" class="rounded">
+                                            <span> brandy lee </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="categories mt-20">
+                                <h5 class="fs-16 font-black text-uppercased mt-75 mb-30"> prerequisities </h5>
+                                <ul class="list">
+                                    <li class="gray-bordered w-100 font-black text-capitalized fw-600 fs-14"> English 1A </li>
+                                    <li class="gray-bordered w-100 font-black text-capitalized fw-600 fs-14"> pre-calc 12C </li>
+                                    <li class="gray-bordered w-100 font-black text-capitalized fw-600 fs-14"> Intro to Philosophy </li>
+                                    <li class="gray-bordered w-100 font-black text-capitalized fw-600 fs-14"> high school diploma </li>
+                                    <li class="gray-bordered w-100 font-black text-capitalized fw-600 fs-14"> human sciences </li>
+                                </ul>
+                            </div>
+
+                            <div class="categories mt-20">
+                                <h5 class="fs-16 font-black text-uppercased mt-75 mb-30"> certification </h5>
+                                <ul class="list">
+                                    <li class="gray-bordered w-100 font-black text-capitalized fw-600 fs-14"> diploma </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content">
+                <div class="content-title pt-50 pb-40 bg-gray mb-70 relative">
+                    <h5 class="gray-bordered text-capitalized fs-14 fw-600 mb-15"> course details </h5>
+                    <div>
+                        <div class="triangle absolute bg-gray"></div>
+                    </div>
+                </div>
+
+                <div class="container content-text mb-100">
+                    <section>
+                        <h2 class="section-title-lg mb-15 ps-10 font-darkGray"> Lets get wet. </h2>
+
+                        <p class="font-darkGray fs-16">
+                            Perferendis ut et non et quae ut. Occaecati autem vel tempore. Ipsa a recusandae sint aut itaque.
+                        </p>
+
+                        <h3 class="section-title-sm font-darkGray"> Hands on course that guarantees you'll get addicted to the water. </h3>
+
+                        <p class="blue-bordered font-darkGray fw-600">
+                            Magni culpa veritatis libero dolores minima aliquid officia. Et recusandae assumenda accusamus unde. Quibusdam eum consequatur. Repellendus natus sit.
+                        </p>
+
+                        <p class="font-darkGray fs-16">
+                            Omnis ut ex. Cumque veniam nam ipsum eum veniam quia dolor. Quia impedit in molestias. Recusandae qui nulla consequatur quibusdam. Totam non veritatis vel maxime alias non ut vero.
+                        </p>
+
+                        <p class="font-darkGray fs-16">
+                            Illo quia quaerat aut fuga id eius. Quae velit et rerum earum ipsam iste. Eius culpa non eum. Rerum totam numquam eius rerum molestiae voluptas labore rerum voluptas.
+                        </p>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+        <!-- Start of Footer Part -->
+        <footer>
+            <section class="w-100 flex navbar-wrapper bg-black">
+                <div class="flex sp-between h-100 w-100">
+                    <div class="flex logo">   
+                        <h1>
+                            <a href="#" class="link text-capitalized font-white fw-400">
+                                <img src="../images/icon.png" alt="icon image">
+                            </a>
+                        </h1>
+                    </div>
+    
+                    <div id="bottom-navbar" class="h-100 navbar">
+                        <ul class="list flex h-100 transition">
+                            <li class="h-100 flex"><a href="../index.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> home </a></li>
+                            <li class="h-100 flex"><a href="../courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> courses </a></li>
+                            <li class="h-100 flex"><a href="../courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> events </a></li>
+                            <li class="h-100 flex"><a href="../blogs.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> blog </a></li>
+                            <li class="h-100 flex"><a href="../contact.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> teachers </a></li>
+                            <li class="h-100 flex link font-white text-capitalized h-100 flex fw-400 transition pointer relative">
+                                 <span> other interests </span>
+                                 <i class="fa-solid fa-angle-down"></i>
+                                 <ul class="list bg-white flex flex-column absolute sub-nav w-100">
+                                    <li class="h-100 flex w-100"><a href="../additional-courses.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> other fields </a></li>
+                                    <li class="h-100 flex w-100"><a href="../solid.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> solid </a></li>                                
+                                 </ul>
+                            </li>
+                            <li class="h-100 flex"><a href="#" class="link font-white text-capitalized h-100 flex fw-400 transition"> contact us </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-100 copyright">
+                <p class="fs-14 centered text-capitalized font-white"> &copy; all rights reserved | developed by Elshan Hasanov </p>
+            </section>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing script file -->
+        <script src="../main.js"></script>
+    </body>
+</html>

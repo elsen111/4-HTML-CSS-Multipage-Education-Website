@@ -1,0 +1,44 @@
+/* Start of Main Part */
+/* Contact section */
+#contact  .container { flex-wrap: wrap }
+
+#contact  .container  > div { width: 49% }
+
+#contact  iframe { height: 40rem }
+
+#form  form  input, textarea { border: .08rem  solid  #000 }
+
+#form  form  input { height: 7rem }
+
+#form  textarea {
+    resize: none;
+    height: 13rem;
+    padding: .8rem  1.2rem;
+}
+
+#form  input:focus,#form  textarea:focus { border: .08rem  solid  #4ea9e6 !important }
+
+button { border: none }
+/* End of Main Part */
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    #contact  .container  > div { width: 100% }
+
+    #contact  #form { margin-top: 5rem }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    #contact  .container  > div { padding: 0 }
+}

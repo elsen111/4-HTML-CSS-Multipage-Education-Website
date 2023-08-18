@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Linking stylesheets -->
+        <link rel="stylesheet" href="./css/utils.css">
+
+        <!-- Linking the logo on the tab -->
+        <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+
+        <title> Educational Courses </title>
+    </head>
+    
+    <body class="relative">
+        <!-- Start of Header Part -->
+        <header class="w-100 flex navbar-wrapper transition">
+            <div class="flex sp-between h-100 w-100">
+                <div class="flex logo">
+                    <img src="./images/icon.png" alt="icon image">
+                    <h1><a href="#" class="link text-capitalized font-white fw-400"> educated </a></h1>
+                </div>
+
+                <div id="top-navbar" class="h-100 navbar">
+                    <ul class="list flex h-100 transition">
+                        <li class="h-100 flex"><a href="./index.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> home </a></li>
+                        <li class="h-100 flex"><a href="./courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> courses </a></li>
+                        <li class="h-100 flex"><a href="#" class="active-link link font-white text-capitalized h-100 flex fw-400 transition"> events </a></li>
+                        <li class="h-100 flex"><a href="./blogs.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> blog </a></li>
+                        <li class="h-100 flex"><a href="./teachers.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> teachers </a></li>
+                        <li class="h-100 flex link font-white text-capitalized h-100 flex fw-400 transition pointer relative">
+                             <span> other interests </span>
+                             <i class="fa-solid fa-angle-down"></i>
+                             <ul class="list bg-white flex flex-column absolute sub-nav w-100">
+                                <li class="h-100 flex w-100"><a href="./additional-courses.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> other fields </a></li>
+                                <li class="h-100 flex w-100"><a href="./solid.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> solid </a></li>                                
+                             </ul>
+                        </li>
+                        <li class="h-100 flex"><a href="./contact.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> contact us </a></li>
+                    </ul>
+                </div>
+
+                <div class="menu-bar h-100 flex pointer" onclick="handleNavbar()">
+                    <i class="fa-solid fa-bars font-white"></i>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+
+        <!-- Start of Main Part -->
+        <main>
+            <section class="intro intro-long bg-img relative  ps-before ps-black">
+                <div class="container">
+                    <div class="featured-content w-100 m-center">
+                        <h1 class="title-lg mt-20 mb-20 font-white lh-105 text-capitalized"> upcoming events </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section id="events" class="mt-175 mb-100">
+                <div class="container">
+                    <div class="grid-2">
+                        <div class="event-card-wrapper mb-30">
+                            <div class="event-card flex align-start w-100 pe-10 transition">
+                                <div class="w-50 h-100 flex">
+                                    <img src="./images/events-event1.jpg" alt="event card image" class="w-100 h-100">
+                                </div>
+
+                                <div class="event-card-content w-50 flex flex-column align-start h-100">
+                                    <div class="h-line bg-black"></div>
+                                    <h4 class="card-title text-capitalized mt-20 mb-30"> teachers gathering </h4>
+                                    <div class="flex">
+                                        <a href="./events-pages/meeting.html" class="link btn bg-black text-capitalized transition"> read </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card-wrapper mb-30 ps-10">
+                            <div class="event-card flex align-start w-100 transition">
+                                <div class="w-50 h-100 flex">
+                                    <img src="./images/events-event2.jpg" alt="event card image" class="w-100 h-100">
+                                </div>
+
+                                <div class="event-card-content w-50 flex flex-column align-start h-100">
+                                    <div class="h-line bg-black"></div>
+                                    <h4 class="card-title text-capitalized mt-20 mb-30"> faculty garden planning </h4>
+                                    <div class="flex">
+                                        <a href="./events-pages/garden-planning.html" class="link btn bg-black text-capitalized transition"> read </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card-wrapper mb-30">
+                            <div class="event-card flex align-start w-100 pe-10 transition">
+                                <div class="w-50 h-100 flex">
+                                    <img src="./images/events-event3.jpg" alt="event card image" class="w-100 h-100">
+                                </div>
+
+                                <div class="event-card-content w-50 flex flex-column align-start h-100">
+                                    <div class="h-line bg-black"></div>
+                                    <h4 class="card-title text-capitalized mt-20 mb-30"> achieve great heights </h4>
+                                    <div class="flex">
+                                        <a href="./events-pages/great-heights.html" class="link btn bg-black text-capitalized transition"> read </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card-wrapper ps-10 mb-30">
+                            <div class="event-card flex align-start w-100 transition">
+                                <div class="w-50 h-100 flex">
+                                    <img src="./images/events-event4.jpg" alt="event card image" class="w-100 h-100">
+                                </div>
+
+                                <div class="event-card-content w-50 flex flex-column align-start h-100">
+                                    <div class="h-line bg-black"></div>
+                                    <h4 class="card-title text-capitalized mt-20 mb-30"> campus pizza party </h4>
+                                    <div class="flex">
+                                        <a href="./events-pages/pizza-party.html" class="link btn bg-black text-capitalized transition"> read </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card-wrapper mb-30">
+                            <div class="event-card flex align-start w-100 transition">
+                                <div class="w-50 h-100 flex">
+                                    <img src="./images/events-event5.jpg" alt="event card image" class="w-100 h-100">
+                                </div>
+
+                                <div class="event-card-content w-50 flex flex-column align-start h-100">
+                                    <div class="h-line bg-black"></div>
+                                    <h4 class="card-title mt-20 mb-30"> Rally for new campus upgrades </h4>
+                                    <div class="flex">
+                                        <a href="./events-pages/campus-upgrade.html" class="link btn bg-black text-capitalized transition"> read </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+        <!-- Start of Footer Part -->
+        <footer>
+            <section class="w-100 flex navbar-wrapper bg-black">
+                <div class="flex sp-between h-100 w-100">
+                    <div class="flex logo">   
+                        <h1>
+                            <a href="#" class="link text-capitalized font-white fw-400">
+                                <img src="./images/icon.png" alt="icon image">
+                            </a>
+                        </h1>
+                    </div>
+    
+                    <div id="bottom-navbar" class="h-100 navbar">
+                        <ul class="list flex h-100 transition">
+                            <li class="h-100 flex"><a href="./index.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> home </a></li>
+                            <li class="h-100 flex"><a href="./courses.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> courses </a></li>
+                            <li class="h-100 flex"><a href="#" class="active-link link font-white text-capitalized h-100 flex fw-400 transition"> events </a></li>
+                            <li class="h-100 flex"><a href="./blogs.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> blog </a></li>
+                            <li class="h-100 flex"><a href="./teachers.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> teachers </a></li>
+                            <li class="h-100 flex link font-white text-capitalized h-100 flex fw-400 transition pointer relative">
+                                 <span> other interests </span>
+                                 <i class="fa-solid fa-angle-down"></i>
+                                 <ul class="list bg-white flex flex-column absolute sub-nav w-100">
+                                    <li class="h-100 flex w-100"><a href="./additional-courses.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> other fields </a></li>
+                                    <li class="h-100 flex w-100"><a href="./solid.html" class="link font-darkGray text-capitalized h-100 flex fw-400 transition w-100"> solid </a></li>                                
+                                 </ul>
+                            </li>
+                            <li class="h-100 flex"><a href="./contact.html" class="link font-white text-capitalized h-100 flex fw-400 transition"> contact us </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-100 copyright">
+                <p class="fs-14 centered text-capitalized font-white"> &copy; all rights reserved | developed by Elshan Hasanov </p>
+            </section>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing script file -->
+        <script src="./main.js"></script>
+    </body>
+</html>

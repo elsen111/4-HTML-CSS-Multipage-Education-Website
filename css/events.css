@@ -1,0 +1,99 @@
+/* General styling */
+.event-content  .intro { background: none }
+
+.event-img {
+    margin: 3.7rem  3rem  2.9rem  0;
+    height: 22.4rem;
+    width: 31rem; 
+}
+
+.event-details > div { flex: 1 }
+
+.event-details > div > span { margin: 1rem  1.5rem  0  0 }
+
+.event-details > div > span:first-child { color: #c9c9c9 }
+
+.event-details > div > span:last-child { color: #252525 }
+
+.event-details  input {
+    border: none;
+    color: #91b5f5;
+    margin-top: 1rem;
+}
+
+.event-content  .content { background-color: #fafafa }
+
+.event-content  .section-title-lg {
+    font-size: 3.2rem;
+    padding-left: 0;
+}
+
+.section-title-sm {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.event-content  p { margin-bottom: 3.2rem }
+
+.gray-bordered {
+    border-left: .2rem  solid  #aaa;
+    padding-left: .5rem;
+}
+
+.blue-bordered {
+    background-color: #edf2f3;
+    border-left: .4rem  solid  #aebec9;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    padding: 2.5rem  2rem;
+}
+
+.event-content  .content-title > *, .event-content  .content  .container > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 94rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 992px) {
+    .event-img {
+        height: 7.9rem;
+        width: 18.15rem; 
+    }
+
+    .event-details.flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .event-details.flex > div { flex-direction: column }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .event-content  .content, .event-content  .content-text  section { padding: 0 }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .event-img { display: none }
+
+    h1.title-lg {
+        margin-top: 10rem;
+        width: 100%;
+    }
+}
